@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
+
+:root {
+  --ff-ss: 'Merriweather Sans', sans-serif;
+  --ff-s: 'Merriweather', serif;
+
+  --body-bg: #F6F3ED;
+  --bs-primary: #0d6efd;;
+  --bs-primary-rgb:46, 72, 58;
+}
+
+#hero {
+height: 600px;
+  background-color: hsl(71, 18%, 88%);
+  background-image: url(../images/image-27.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  justify-content: left;
+}
+
+#hero .d-flex {
+    height: 400px;
+}
