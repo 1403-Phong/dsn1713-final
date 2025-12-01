@@ -5,8 +5,20 @@
   --ff-s: 'Merriweather', serif;
 
   --body-bg: #F6F3ED;
-  --bs-primary: #0d6efd;;
-  --bs-primary-rgb:46, 72, 58;
+  --bs-primary: #06246B;;
+  --bs-primary-rgb:6, 36, 107;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
 }
 
 #hero {
@@ -21,4 +33,9 @@ height: 600px;
 
 #hero .d-flex {
     height: 400px;
+}
+
+
+#boxes {
+    border-right:#F6F3ED ;
 }
