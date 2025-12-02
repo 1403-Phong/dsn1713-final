@@ -52,7 +52,7 @@ height: 600px;
   background-position: center;
   background-size: cover;
   color: #F6F3ED;
-  height: 600px;
+  height: 550px;
 }
 
 #map .d-flex {
@@ -60,6 +60,22 @@ height: 600px;
     padding: 20px;
     justify-content: center;
 }
+
+#cta {
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cta.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #F6F3ED;
+  height: 550px;
+}
+
+#cta .d-flex {
+        height: 400px;
+    padding: 20px;
+    justify-content: center;
+}
+
 .border {
     padding: 20px;
     margin: auto;
