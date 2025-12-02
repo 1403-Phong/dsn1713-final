@@ -27,8 +27,20 @@ h4{
 
 #hero {
 height: 600px;
+background-image: url(../images/image-27.jpg);
   background-color: hsl(71, 18%, 88%);
-  background-image: url(../images/image-27.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  justify-content: left;
+  padding-top: 10px;
+}
+
+#hero-menu {
+    height: 600px;
+    justify-content: center;
+background-image: url(../images/rectangle-14.jpg);
+  background-color: hsl(71, 18%, 88%);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -37,6 +49,20 @@ height: 600px;
 }
 
 #hero .d-flex {
+    height: 400px;
+    padding: auto;
+}
+
+#Breakfast {
+    background-color: #06246B;
+}
+
+#Dessert {
+    background-color: #06246B;
+}
+
+
+#hero-menu .d-flex {
     height: 400px;
     padding: auto;
 }
