@@ -94,12 +94,14 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imag
   background-size: cover;
   color: #F6F3ED;
   height: 550px;
+  justify-content: center;
 }
 
 #cta .d-flex {
-        height: 400px;
-    padding: 20px;
-    justify-content: center;
+    height: 400px;
+}
+#button {
+    margin: 50px;
 }
 
 .border {
